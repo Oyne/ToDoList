@@ -1,3 +1,4 @@
+# -------------------------
 # Logs
 logs
 *.log
@@ -6,10 +7,9 @@ yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 
-# Dependency directories
+# -------------------------
+# Node / Vue
 node_modules/
-
-# Build output
 dist/
 dist-ssr/
 *.local
@@ -17,7 +17,8 @@ dist-ssr/
 # TypeScript cache
 *.tsbuildinfo
 
-# Editor directories and files
+# -------------------------
+# Editor files
 .vscode/*
 !.vscode/extensions.json
 .idea/
@@ -28,21 +29,46 @@ dist-ssr/
 *.sln
 *.sw?
 
+# -------------------------
 # Env files
 .env
 .env.local
 .env.*.local
 
+# -------------------------
 # Playwright
 test-results/
 playwright-report/
 blob-report/
 .playwright/
 
+# -------------------------
 # Coverage reports
 coverage/
 *.lcov
 
+# -------------------------
+# Lock files (optional, per preference)
 package-lock.json
 yarn.lock
 pnpm-lock.yaml
+
+# -------------------------
+# ASP.NET Core / .NET
+bin/
+obj/
+out/
+*.user
+*.dbmdl
+*.bak
+*.Backup
+*.log
+*.ldf
+*.mdf
+
+# Visual Studio Code coverage
+*.coverage
+*.coveragexml
+
+# Dotnet tools
+.vs/
